@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/swcrc",
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true,
+      "decorators": true
+    },
+    "transform": {
+      "react": {
+        "runtime": "automatic"
+      }
+    },
+    "target": "es2017",
+    "loose": false,
+    "minify": {
+      "compress": false,
+      "mangle": false
+    }
+  },
+  "module": {
+    "type": "es6"
+  },
+  "minify": false,
+  "isModule": true
+}
